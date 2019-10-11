@@ -1,0 +1,301 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+p {
+    line-height: 1.6em;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(78, 192, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 192, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1);
+    padding-top: 65px;
+    color: #fff;
+    padding-bottom: 140px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.offer {
+    margin-top: 160px;
+    width: 560px;
+}
+.title {
+    font-size: 37px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    width: 560px;
+    margin-bottom: 48px;
+}
+.title span {
+    font-size: 59px;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    width: 405px;
+    margin-bottom: 40px;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #2e2a1b;
+    text-decoration: none;
+    width: 220px;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+}
+.btn:hover {
+    background: #ffe372;
+    transition: all 0.5s ease;
+}
+.desktop {
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.lean {
+    padding-top: 105px;
+    padding-bottom: 120px;
+}
+.item {
+    width: 297px;
+    padding-bottom: :50px;
+    text-align: center;
+}
+.image {
+    margin-bottom: 28px;
+}
+.section-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.item-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.item-text {
+    margin: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.mail {
+    background: #ecf3f8;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.mail-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.mail-form {
+    margin-top: 60px;
+    width: 450px;
+    margin-left: 35%;
+}
+.mail-form input {
+    height: 45px;
+    width: 345px;
+    margin-bottom: 14px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #85828c;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.mailbtn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #2e2a1b;
+    text-decoration: none;
+    width: 345px;
+    height: 52px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    border: 0;
+}
+.footer {
+    background: #164d7a;
+    padding-top: 63px;
+    color: #fff;
+    padding-bottom: 63px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.last {
+    display: flex;
+    margin-left: 36%;
+}
+.last i {
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.animated {
+    opacity: 0;
+}
+.part-one {
+    color: #423030;
+    font-weight: bold;
+}
+.part-two {
+    background: background: rgba(255, 198, 92, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 198, 92, 1) 0%, rgba(239, 155, 1, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 198, 92, 1)), color-stop(100%, rgba(239, 155, 1, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 198, 92, 1) 0%, rgba(239, 155, 1, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 198, 92, 1) 0%, rgba(239, 155, 1, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 198, 92, 1) 0%, rgba(239, 155, 1, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 198, 92, 1) 0%, rgba(239, 155, 1, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc65c', endColorstr='#ef9b01', GradientType=1);
+color: #423030;
+}
+.part-three {
+    background: #ffd429;
+
+}
+.part-four {
+    background: #423030;
+   
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .title {
+        font-size: 30px;
+        width: auto;
+    }
+    .desktop {
+        padding-top: 90px;
+        margin-left: -30px;
+        width: 480px;
+    }
+    .mail-form {
+        margin-left: 31%;
+    }
+    .last {
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .logo {
+        margin-left: 43%;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+        text-align: center;
+    }
+    .title {
+        width: 100%;
+    }
+    .intro {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .desktop {
+        display: block;
+        width: 641px;
+        margin-left: 50px;
+    }
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mail-form {
+        margin-left: 25%;
+    }
+    .mailbtn {
+        width: 345px;
+    }
+    .last {
+        margin-left: 27%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .logo {
+        margin-left: 40%;
+    }
+    .desktop {
+        width: 500px;
+        margin-left: 25px;
+    }
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-one {
+        width: 280px;
+    }
+    .mail-form {
+        margin-left: 16%;
+    }
+    .last {
+        margin-left: 19%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .logo {
+        margin-left: 35%;
+    }
+    .desktop {
+        width: 300px;
+        margin-left: 0;
+    }
+    .items {
+        flex-direction: column;
+    }
+    .mail-form {
+        width: auto;
+    }
+    .mailbtn {
+        width: 228px;
+    }
+}
